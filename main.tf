@@ -10,7 +10,7 @@ terraform {
 provider "docker" {}
 
 resource "docker_image" "nginx" {
-    name = :nginx:alpine"
+    name = "nginx:alpine"
 }
 
 resource "docker_container" "web" {
